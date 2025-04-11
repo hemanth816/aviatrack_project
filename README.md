@@ -43,43 +43,71 @@ Flight Duty Time Limitations (FDTL) are crucial to ensure pilots get adequate re
 
 ## 📂 Project Structure
 
-```bash
 AVIATRACK/
-│
+
 ├── aviatrack-frontend/       # React frontend
+
 ├── templates/                # HTML templates (Flask rendering)
+
 ├── static/                   # Static files (CSS, JS)
+
 │
+
 ├── app.py                    # Flask entry point
+
 ├── blockchain.py             # Blockchain logic
+
 ├── fdtl_checker.py           # FDTL rules & logic
+
 ├── models.py                 # Data models
+
 ├── init_db.py                # DB setup script
+
 ├── blockchain_ledger.json    # Ledger data
+
 ├── *.db                      # SQLite databases
+
 ├── requirements.txt          # Python dependencies
+
 └── README.md                 # You're reading it 😄
 
-🧪 How to Run Locally
-📥 Backend Setup
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/aviatrack.git
+---
+
+## 🧪 How to Run Locally
+
+
+
+### 📥 Backend Setup
+
+---
+
+git clone [https://github.com/yourusername/aviatrack.git](https://github.com/yourusername/aviatrack.git)
+
 cd aviatrack
+
 pip install -r requirements.txt
+
 python init_db.py  # Initialize the database
+
 python app.py      # Start Flask server
-🌐 Frontend Setup (React)
-bash
-Copy
-Edit
+
+---
+
+### 🌐 Frontend Setup (React)
+
+---
+
 cd aviatrack-frontend
+
 npm install
+
 npm start
+
 Visit: http://localhost:3000 to interact with the frontend.
 
-🔐 Security & Blockchain
+---
+
+## 🔐 Security & Blockchain
 Aviatrack stores duty logs in an append-only blockchain file (blockchain_ledger.json). Each record:
 
 Is hashed using SHA-256
@@ -90,7 +118,10 @@ Ensures tamper-evidence
 
 This enables transparent auditability.
 
-💬 Future Enhancements
+---
+
+## 💬 Future Enhancements
+
 🔒 JWT Authentication for user login
 
 📤 Cloud database & blockchain storage
@@ -99,13 +130,22 @@ This enables transparent auditability.
 
 ☁️ One-click deployment with CI/CD
 
-👨‍💻 Authors
+---
+
+## 👨‍💻 Authors
+
 Hemanth — B.Tech Final Year (CSE)
 
 Team Aviatrack | 2025
 
-📃 License
+---
+
+## 📃 License
+
 This project is licensed for academic and educational purposes.
 
-⭐ Give It a Star!
+---
+
+## ⭐ Give It a Star!
+
 If you found this project helpful or interesting, don’t forget to ⭐ star the repo and share it with your network!
