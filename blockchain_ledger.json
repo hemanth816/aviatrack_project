@@ -1,0 +1,50 @@
+[
+    {
+        "index": 0,
+        "data": "Genesis Block"
+    },
+    {
+        "index": 1,
+        "data": {
+            "pilot_id": "P001",
+            "flight_id": "F101",
+            "duty_start": "2025-04-10T04:40",
+            "duty_end": "2025-04-10T08:40",
+            "duration_hours": 4.0,
+            "violation": false
+        }
+    },
+    {
+        "index": 2,
+        "data": {
+            "pilot_id": "P001",
+            "flight_id": "F102",
+            "duty_start": "2025-04-10T09:45",
+            "duty_end": "2025-04-10T12:45",
+            "duration_hours": 3.0,
+            "violation": false
+        }
+    },
+    {
+        "index": 3,
+        "data": {
+            "pilot_id": "P109",
+            "flight_id": "F101",
+            "duty_start": "2025-04-10T17:52",
+            "duty_end": "2025-04-10T21:52",
+            "duration_hours": 4.0,
+            "violation": false
+        }
+    },
+    {
+        "index": 4,
+        "data": {
+            "pilot_id": "P500",
+            "flight_id": "F500",
+            "duty_start": "2025-04-11T08:05",
+            "duty_end": "2025-04-11T12:05",
+            "duration_hours": 4.0,
+            "violation": false
+        }
+    }
+]
